@@ -8,7 +8,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"clickup_incidents\",\"clickup_incentives\",\"Sample File\",\"Parameter1\",\"Transform Sample File\",\"Transform File\",\"clickup_upgrades\",\"Parameter2\",\"Transform Sample File (2)\",\"Sample File (2)\",\"Transform File (2)\",\"Errors in clickup_upgrades\",\"Errors in clickup_upgrades (2)\",\"clickup_upgrades_self\",\"clickup_metrics\",\"Errors in clickup_incentives\"]"
+        "value": "[\"clickup_incidents\",\"clickup_incentives\",\"Sample File\",\"Parameter1\",\"Transform Sample File\",\"Transform File\",\"clickup_upgrades\",\"Parameter2\",\"Transform Sample File (2)\",\"Sample File (2)\",\"Transform File (2)\",\"Errors in clickup_upgrades\",\"Errors in clickup_upgrades (2)\",\"clickup_upgrades_self\",\"clickup_powerflex_metrics\",\"Errors in clickup_incentives\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -11727,7 +11727,7 @@
         "showAsVariationsOnly": true
       },
       {
-        "name": "clickup_metrics",
+        "name": "clickup_powerflex_metrics",
         "annotations": [
           {
             "name": "PBI_NavigationStepName",
@@ -11736,6 +11736,11 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
           }
         ],
         "columns": [
@@ -11756,7 +11761,7 @@
         "lineageTag": "38d0afc7-a255-4210-9736-c8ae3672978d",
         "partitions": [
           {
-            "name": "clickup_metrics",
+            "name": "clickup_powerflex_metrics",
             "mode": "import",
             "source": {
               "expression": [
