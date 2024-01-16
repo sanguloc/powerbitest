@@ -64,8 +64,7 @@
             "x": 1420,
             "y": 98
           },
-          "nodeIndex": "clickup_metrics",
-          "nodeLineageTag": "38d0afc7-a255-4210-9736-c8ae3672978d",
+          "nodeIndex": "clickup_powerflex_metrics",
           "size": {
             "height": 104,
             "width": 234
