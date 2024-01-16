@@ -8676,7 +8676,7 @@
             "summarizeBy": "none"
           },
           {
-            "name": "status",
+            "name": "status_name",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
@@ -8685,7 +8685,7 @@
             ],
             "dataType": "string",
             "lineageTag": "7e4a2377-1797-41f9-a7ac-c329950c307b",
-            "sourceColumn": "status",
+            "sourceColumn": "status_name",
             "summarizeBy": "none"
           },
           {
@@ -8962,7 +8962,7 @@
                 "    #\"Changed Type with Locale3\" = Table.TransformColumnTypes(#\"Changed Type with Locale2\", {{\"date_closed\", type date}}, \"en-GB\"),",
                 "    #\"Changed Type with Locale4\" = Table.TransformColumnTypes(#\"Changed Type with Locale3\", {{\"date_updated\", type date}}, \"en-GB\"),",
                 "    #\"Changed Type with Locale5\" = Table.TransformColumnTypes(#\"Changed Type with Locale4\", {{\"date_created\", type date}}, \"en-GB\"),",
-                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type with Locale5\",{{\"parent\", \"parent_name\"}})",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type with Locale5\",{{\"parent\", \"parent_name\"}, {\"status\", \"status_name\"}})",
                 "in",
                 "    #\"Renamed Columns\""
               ],
